@@ -1,0 +1,10 @@
+                                  Metric     Value
+    gas_boiler_running_cost_gbp_per_year    857.15
+     heat_pump_running_cost_gbp_per_year    803.31
+            gas_boiler_lifetime_cost_gbp 14,805.54
+heat_pump_lifetime_cost_before_grant_gbp 23,445.45
+ heat_pump_lifetime_cost_after_grant_gbp 15,945.45
+                  household_net_cost_gbp  1,139.92
+                 emissions_abated_tonnes     25.77
+        household_net_cost_per_tonne_gbp     44.23
+                               pv_factor     13.19
