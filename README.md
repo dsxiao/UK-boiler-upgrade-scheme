@@ -1,6 +1,6 @@
-# UK Boiler Upgrade Scheme (BUS): Consumer Costs, Price Signals and Political Feasibility
+# UK Boiler Upgrade Scheme (BUS): Consumer Costs
 
-Code, data and documentation for the **consumer cost** section of the group project on the Boiler Upgrade Scheme (BUS) in England and Wales.
+Code, data and documentation for the consumer cost section of the group project on the Boiler Upgrade Scheme (BUS) in England and Wales.
 
 ---
 
@@ -44,12 +44,6 @@ lifetime cost = installation cost + yearly running cost × PV factor
 PV factor = (1 − (1 + r)^−n) / r        (13.19 at 3.5% over 18 years)
 ```
 
-**Household and resource cost**
-
-- Household net cost = (heat pump lifetime cost − grant) − gas boiler lifetime cost
-- Resource cost = the same, without subtracting the grant
-- Tonnes abated = (gas fuel × `gas_emissions` − heat pump fuel × `electricity_emissions`) × n / 1000
-
 **Break-even price ratio**
 
 The highest electricity price, relative to gas, at which a heat pump costs exactly the same to run as a gas boiler.
@@ -60,7 +54,7 @@ break-even ratio = heat pump efficiency (SCOP) / boiler efficiency = 3.73 / 0.9 
 
 Electricity can cost up to 4.14 times as much as gas before the heat pump loses its running-cost advantage. When the electricity/gas price ratio is below 4.14, running a heat pump is cheaper than running a boiler.
 
-**Electricity/gas price ratio**
+**Electricity-to-gas price ratio**
 
 ```
 ratio = electricity unit rate / gas unit rate = 26.32 / 7.97 = 3.30
